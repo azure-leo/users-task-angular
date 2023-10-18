@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@users/core/http": ["libs/core/http/src/index.ts"],
+      "@users/core/ui/layout": ["libs/users/core/ui/layout/src/public-api.ts"],
+      "@users/data-access": ["libs/users/data-access/src/public-api.ts"],
+      "@users/home": ["libs/users/home/src/public-api.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
