@@ -14,6 +14,6 @@ export class UsersApiService {
 
   constructor() {
     console.log("Constructor was called");
-    this.getUsers().subscribe(console.log);
+    // this.getUsers().subscribe(console.log);
   }
 }
