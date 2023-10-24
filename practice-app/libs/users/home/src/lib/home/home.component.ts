@@ -1,7 +1,8 @@
-import {Component, inject, ViewEncapsulation} from '@angular/core';
+import {Component, ViewEncapsulation} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ApiService } from '@users/core/http';
+
 import { UsersListContainerComponent } from '@users/feature-users-list';
+
 @Component({
   selector: 'lib-home',
   standalone: true,
@@ -11,10 +12,5 @@ import { UsersListContainerComponent } from '@users/feature-users-list';
   encapsulation: ViewEncapsulation.Emulated
 })
 export class HomeComponent {
-  private readonly apiService = inject(ApiService)
-
-  constructor() {
-    this.apiService.get('/users').subscribe(console.log);
-  }
 }
 

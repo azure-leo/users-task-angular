@@ -1,3 +1,6 @@
-<lib-users-list>
+<ng-container *ngIf="users$ | async as users">
+  <lib-users-list [vm]="users">
+  </lib-users-list>
+</ng-container>
 
-</lib-users-list>
+

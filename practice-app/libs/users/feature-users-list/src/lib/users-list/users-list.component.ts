@@ -1,5 +1,6 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import {Component, Input, ViewEncapsulation} from '@angular/core';
 import { CommonModule } from '@angular/common';
+import {UsersListVM} from "./users-list-view-model";
 
 @Component({
   selector: 'lib-users-list',
@@ -10,5 +11,7 @@ import { CommonModule } from '@angular/common';
   encapsulation: ViewEncapsulation.Emulated
 })
 export class UsersListComponent {
+  @Input({required: true})
+  vm!: UsersListVM;
 
 }
