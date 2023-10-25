@@ -6,12 +6,13 @@ type UsersDTOAdapter = {
   DTOtoEntity(dto: UsersDTO): UsersEntity,
   entityToDTO(entity: UsersEntity): UsersDTO
 }
-export const userDTOAdapter: UsersDTOAdapter = {
+export const usersDtoAdapter: UsersDTOAdapter = {
   DTOtoEntity(dto) {
+    const { geo, ...otherAddressFields} = dto.address
     return {
       ...dto,
       address: {
-        ...dto.address,
+        ...otherAddressFields
       }
     }
   },
