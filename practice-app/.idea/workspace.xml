@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a397dedb-4a33-426e-aafc-e9199434063c" name="Changes" comment="Add ngrx for data-access" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2WuIIMs5V4atngIYXxTP5oukD9N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kairatsatbekov/Desktop/frontend/angular/practice-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/kairatsatbekov/Desktop/frontend/angular/practice-app/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/libs/users/data-access/src/lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Nx.Debug.Config" type="NodeJSConfigurationType" application-parameters="generate @schematics/angular:library --name=utils --entryFile=public-api --prefix=lib --projectRoot=/libs/core --no-interactive --dry-run" path-to-js-file="nx.js" working-dir="$PROJECT_DIR$/node_modules/@nrwl/cli/bin">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a397dedb-4a33-426e-aafc-e9199434063c" name="Changes" comment="" />
+      <created>1697575957947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697575957947</updated>
+      <workItem from="1697575960800" duration="2203000" />
+      <workItem from="1697578174024" duration="214000" />
+      <workItem from="1697578391044" duration="3653000" />
+      <workItem from="1697582362208" duration="88000" />
+      <workItem from="1697582452528" duration="2017000" />
+      <workItem from="1697584475091" duration="355000" />
+      <workItem from="1697584833347" duration="3634000" />
+      <workItem from="1697588486501" duration="375000" />
+      <workItem from="1697588865561" duration="3214000" />
+      <workItem from="1697634301828" duration="51000" />
+      <workItem from="1697634354931" duration="592000" />
+      <workItem from="1697634949901" duration="1203000" />
+      <workItem from="1697636157346" duration="4575000" />
+      <workItem from="1697658895718" duration="170000" />
+      <workItem from="1697659069572" duration="4440000" />
+      <workItem from="1697744358821" duration="11416000" />
+      <workItem from="1698025119481" duration="5551000" />
+      <workItem from="1698189141183" duration="2819000" />
+      <workItem from="1698191968444" duration="939000" />
+      <workItem from="1698193045494" duration="527000" />
+      <workItem from="1698193591308" duration="74000" />
+      <workItem from="1698193668086" duration="95000" />
+      <workItem from="1698193777457" duration="54000" />
+      <workItem from="1698193833530" duration="449000" />
+      <workItem from="1698194285464" duration="9000" />
+      <workItem from="1698195187895" duration="910000" />
+      <workItem from="1698196101925" duration="83000" />
+      <workItem from="1698196333182" duration="146000" />
+      <workItem from="1698196489822" duration="4016000" />
+      <workItem from="1698232640862" duration="8574000" />
+      <workItem from="1698261110169" duration="3902000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add footer">
+      <option name="closed" value="true" />
+      <created>1697584582217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697584582217</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add footer">
+      <option name="closed" value="true" />
+      <created>1697636130076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697636130076</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add footer">
+      <option name="closed" value="true" />
+      <created>1697636182011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697636182011</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add footer">
+      <option name="closed" value="true" />
+      <created>1697744015966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697744015966</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add footer">
+      <option name="closed" value="true" />
+      <created>1697744037359</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697744037359</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add footer">
+      <option name="closed" value="true" />
+      <created>1697820006874</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697820006874</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add ngrx for data-access">
+      <option name="closed" value="true" />
+      <created>1698189706680</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698189706680</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add ngrx for data-access">
+      <option name="closed" value="true" />
+      <created>1698189718448</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698189718448</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add footer" />
+    <MESSAGE value="Add ngrx for data-access" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ngrx for data-access" />
+  </component>
+</project>
