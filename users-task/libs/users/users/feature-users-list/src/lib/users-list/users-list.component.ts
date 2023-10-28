@@ -1,13 +1,14 @@
 import {
   ChangeDetectionStrategy,
   Component,
+  Input,
   ViewEncapsulation,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { UsersListVM } from './users-list-view-model';
 
 @Component({
-  // eslint-disable-next-line @angular-eslint/component-selector
-  selector: 'users-list-ui',
+  selector: 'users-task-users-list',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './users-list.component.html',
@@ -15,4 +16,7 @@ import { CommonModule } from '@angular/common';
   encapsulation: ViewEncapsulation.Emulated,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class UsersListComponent {}
+export class UsersListComponent {
+  @Input({required: true})
+  vm!: UsersListVM;
+}

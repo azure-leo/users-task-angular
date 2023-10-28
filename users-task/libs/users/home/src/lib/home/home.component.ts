@@ -1,22 +1,16 @@
-import { ChangeDetectionStrategy, Component, ViewEncapsulation, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ViewEncapsulation, inject} from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ApiService } from '@users/core/http';
 import { UsersListContainerComponent } from '@users/feature-users-list';
+import { UsersFacade } from '@users/users/data-access';
 
 @Component({
   selector: 'users-task-home',
   standalone: true,
   imports: [CommonModule, UsersListContainerComponent],
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
+  styleUrls: ['./home.component.css'],  
   encapsulation: ViewEncapsulation.Emulated,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomeComponent {
-
-  private readonly apiService = inject(ApiService);
-
-  constructor() {
-    this.apiService.get('/users').subscribe(res => console.log('HOME ', res));
-  }
 }

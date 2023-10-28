@@ -1,7 +1,8 @@
+import {UserDTO} from "../user-dto.model";
+
 /**
  * Interface for the 'Users' data
  */
-export interface UsersEntity {
-  id: string | number; // Primary ID
-  name: string;
+export type UsersEntity = Omit<UserDTO, 'address'> & {
+  address: Omit<UserDTO['address'],'geo'>
 }
