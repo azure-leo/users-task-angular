@@ -5,11 +5,20 @@
 
 <ng-template #loadingResult>
   <ng-container *ngIf="vm.status === 'loaded'; else error">
-    {{ vm | json}}
+
+    <div style="display: flex; justify-content: center" class="container">
+      <div style="width:1000px" class="tui-row">
+        <div class="tui-col_md-4" style="margin-bottom: 20px"  *ngFor="let user of vm.users">
+          <ng-container >
+            <users-task-users-card [user]="user" (deleteUser)="onDeleteUser(user)" />
+          </ng-container>
+        </div>
+      </div>
+    </div>
+
   </ng-container>
 </ng-template>
 
 <ng-template #error>
   Ошибка
 </ng-template>
-

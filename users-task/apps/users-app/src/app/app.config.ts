@@ -1,3 +1,5 @@
+import {provideAnimations} from "@angular/platform-browser/animations";
+import { TuiRootModule } from "@taiga-ui/core";
 import {ApplicationConfig, importProvidersFrom, isDevMode} from '@angular/core';
 import {
   provideRouter,
@@ -16,6 +18,7 @@ import {provideStoreDevtools} from "@ngrx/store-devtools";
 
 export const appConfig: ApplicationConfig = {
   providers: [
+    provideAnimations(),
     provideEffects(userEffects),
     provideState(USERS_FEATURE_KEY, usersReducer),
     provideEffects(),
@@ -30,8 +33,7 @@ export const appConfig: ApplicationConfig = {
     }),
     provideRouter(appRoutes, withEnabledBlockingInitialNavigation()),
     provideHttpClient(),
-    importProvidersFrom(
-    ),
+    importProvidersFrom(TuiRootModule),
     {
       provide: API_URL,
       useValue: environment.api_url

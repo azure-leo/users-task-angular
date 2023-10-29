@@ -10,6 +10,7 @@ import { UsersEntity, UsersFacade } from '@users/users/data-access';
 import { map } from 'rxjs';
 import { UsersListVM } from '../users-list/users-list-view-model';
 import {UsersListContainerStore} from "./users-list-container.store";
+import {UsersVM} from "../users-vm";
 
 @Component({
   selector: 'users-task-users-list-container',
@@ -25,4 +26,9 @@ export class UsersListContainerComponent {
   private readonly componentStore = inject(UsersListContainerStore)
   public readonly users$ = this.componentStore.users$
   public readonly status$ = this.componentStore.status$
+  public readonly userFacade = inject(UsersFacade)
+
+  onDeleteUser(user: UsersVM) {
+    this.componentStore.deleteUser(user)
+  }
 }

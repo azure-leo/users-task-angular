@@ -46,4 +46,8 @@ export class UsersListContainerStore extends ComponentStore<UsersListState> {
         user => usersVMAdapter.entityToVM(user)
       )})
   }
+
+  public deleteUser(user: UsersVM) {
+    this.usersFacade.deleteUser(user.id);
+  }
 }
