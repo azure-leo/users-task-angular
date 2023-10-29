@@ -1,0 +1,28 @@
+<tui-island
+  size="l"
+  textAlign="center"
+  style="overflow: auto; display: flex; align-items: center; justify-content: center "
+>
+  <div class="tui-island__content">
+    <div>
+      <h3 class="tui-island__title">{{ user.name }} - {{ user.username}}</h3>
+      {{ user.email }}
+      <p>ID: {{ user.id }}</p>
+      <p class="tui-island__paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.
+      </p>
+      <button
+        appearance="flat"
+        size="m"
+        tuiButton
+        type="button"
+        class="tui-island__footer-button"
+        (click)="onDeleteUser($event)"
+      >
+        Delete
+      </button>
+    </div>
+  </div>
+</tui-island>
+
