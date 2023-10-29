@@ -7,7 +7,7 @@
   <ng-container *ngIf="vm.status === 'loaded'; else error">
 
     <div style="display: flex; justify-content: center" class="container">
-      <div style="width:1000px" class="tui-row">
+      <div style="width:1200px" class="tui-row">
         <div class="tui-col_md-4" style="margin-bottom: 20px"  *ngFor="let user of vm.users">
           <ng-container >
             <users-task-users-card [user]="user" (deleteUser)="onDeleteUser(user)" />
