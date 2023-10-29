@@ -4,6 +4,16 @@
   style="overflow: auto; display: flex; align-items: center; justify-content: center "
 >
   <div class="tui-island__content">
+    <figure class="tui-island__figure">
+      <div class="some-figure">
+        <tui-avatar
+          size="l"
+          text="dmitriy demenskiy"
+          class="tui-space_top-1"
+          [rounded]="true"
+        ></tui-avatar>
+      </div>
+    </figure>
     <div>
       <h3 class="tui-island__title">{{ user.name }} - {{ user.username}}</h3>
       {{ user.email }}

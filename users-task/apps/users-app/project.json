@@ -32,7 +32,8 @@
           "node_modules/@taiga-ui/core/styles/taiga-ui-theme.less",
           "node_modules/@taiga-ui/core/styles/taiga-ui-fonts.less",
           "node_modules/@taiga-ui/styles/taiga-ui-global.less",
-          "apps/users-app/src/styles.css"
+          "apps/users-app/src/styles.css",
+          "apps/users-app/src/styles.less"
         ],
         "scripts": []
       },
