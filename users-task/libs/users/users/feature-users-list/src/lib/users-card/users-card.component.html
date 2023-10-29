@@ -8,8 +8,9 @@
       <div class="some-figure">
         <tui-avatar
           size="l"
-          text="dmitriy demenskiy"
+          text="{{ user.name }}"
           class="tui-space_top-1"
+          [autoColor]="true"
           [rounded]="true"
         ></tui-avatar>
       </div>
@@ -19,8 +20,7 @@
       {{ user.email }}
       <p>ID: {{ user.id }}</p>
       <p class="tui-island__paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.
+        Student
       </p>
       <button
         appearance="flat"
